@@ -1,4 +1,4 @@
-1. 3. On line 12, the console will print the value of the variable i, which is the index of the last element in the prices array. The for loop processes all elements in the prices arrayso  the value of i will be equal to the length of the array, which is 3. 
+1. "3." On line 12, the console will print the value of the variable i, which is the index of the last element in the prices array. The for loop processes all elements in the prices arrayso  the value of i will be equal to the length of the array, which is 3. 
 2. Line 13 will print 150. The functions takes  as input: prices=[100, 200, 300] and discount=0.5. The last element in prices is 300, so during the last iteration of the for loop, the variable discountedPrice is assigned the value 150. The variable is declared with 'var' keyword so line 12 has access so to printit
 3. Line 14 will print 150. The functions takes  as input: prices=[100, 200, 300] and discount=0.5. The last element in prices is 300 so on the final iteration of the for loop, finalPrice is assigned the value 150. finalprice is decalred with 'var' keyword so line14 has access to print it
 4. The function will return [50. 100, 150]. The function takes as input: prices=[100, 200, 300] and discount=0.5. For each element in prices, the function multiplies it by (1 - discount) = 0.5 (in this case), rounds it, and push it into the discounted array which is returned at the end of the function
@@ -9,4 +9,4 @@
 9. This code causes an error. The variable i is decalred with the keyword let in the for loop, which means it can only be accessed in the loop. Since line 11 is outside the block, it has no access to the variable "i"
 10. Line 12 will print 3. The function takes as input: prices=[100, 200, 300] and discount=0.5. There are 3 elements in prices so the length is 3. Tge variable length is declared with const keyword  and assigned the value of the length of prices which is 3. 
 11. The function will return [50, 100, 150]. The function returns the value of discounted array. The variable of discounted is declared with keyword const but its elements can be updated\
-12. A. student[name] 
+12. A. student[name] \t B.
