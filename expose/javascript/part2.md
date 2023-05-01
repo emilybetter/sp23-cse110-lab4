@@ -11,7 +11,7 @@
 11. The function will return [50, 100, 150]. The function returns the value of discounted array. The variable of discounted is declared with keyword const but its elements can be updated\
 12. A. student.name  B.student['Grad Year'] C. student.greeting() D. student['Favorite Teacher'].name E. student.courseLoad[0]
 13. i. ‘3’ + 2             '32' because the plus operand concantenates them together because oneis a string
-ii. ‘3’ - 2                 '1' because the minus subtracts 2 from '3' after converting the string '3' to a number
+14. ii. ‘3’ - 2                 '1' because the minus subtracts 2 from '3' after converting the string '3' to a number
 iii. 3 + null               '3' because null is basically 0 in arthimetic operations
 iv. ‘3’ + null              '3null' because 3 is a string, the plus sign concatenates 3 and null as strings
 v. true + 3                 '4' because true is converted to 1 in numeric context, and 1+3=4
@@ -24,9 +24,9 @@ viii. '3' - undefined       'NaN' because you can't perform sustraction with unf
 2 === ‘2’                 'false' because value and type are not equal
 true == 2                 'false' because true is treated as 1, and 1 is not qual to 2
 true === Boolean(2)       'true' because Boolean(x) returns true for any non zero number in javascript, and true is equal to true
-15. == checks quality but only compares values (they can be different types) but === is more strict and requires value and type to be equal
-16. f
-17.The modifyArray function takes an array ([1,2,3]) and a callback (doSomething function) as arguments. Inside modifyArray, a new empty array newArr is created and its for loop iterates through each element of the input array. For each element, the callback function is called with the element as an argument, and the result is pushed into  newArr. The doSomething function takes the input number, multiplies it by 2, and returns it. After iterating through all elements in the input array, the newArr is returned ( [2,4,6])
-18. f
+15. == checks quality but only compares values (they can be different types) but === is more strict and requires value and type to be equal \n
+16. f \n
+17.The modifyArray function takes an array ([1,2,3]) and a callback (doSomething function) as arguments. Inside modifyArray, a new empty array newArr is created and its for loop iterates through each element of the input array. For each element, the callback function is called with the element as an argument, and the result is pushed into  newArr. The doSomething function takes the input number, multiplies it by 2, and returns it. After iterating through all elements in the input array, the newArr is returned ( [2,4,6]) \n
+18. f \n
 19. 1 4 3 2
  
